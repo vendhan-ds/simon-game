@@ -1,0 +1,33 @@
+.button {
+    background-color: rgb(6, 0, 0);
+    border: none;
+    color: rgb(248, 245, 245);
+    padding: 45px 45px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 8px;
+    border: 3px solid #FF0000;
+}
+
+.button:hover {
+    background-color: #3e8e41 !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+p1{ 
+    font-family: "fantasy",copperplate;
+    color: royalblue;
+    border: 1in;
+    font-size: 1in;
+
+  }
+p{  text-align: center;
+    font-size: 0.7in;
+    position: absolute;left:600px ;top: 200px;;
+}
+
+body{
+    background-color: aquamarine;
+}
