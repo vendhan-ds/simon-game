@@ -10,6 +10,9 @@ function shuffle(array) {
   }
   return array;
 } 
+var btn = document.getElementById('startbutton');
+btn.addEventListener('click', () => {
+  begin();});
 
 var maincondition=1
 let round=1
@@ -55,7 +58,7 @@ function begin(){
    function finalchek(){
     console.log(myclick);
     for (let m=0; m<round;m++){
-      if (myclick[m]==l[m]){
+      if (myclick.includes(l[m])){
         maincondition=1;
       }
       else{maincondition=0;
@@ -64,7 +67,7 @@ function begin(){
         ;}
     }
   document.getElementById('demo2').innerHTML=" score : "+round;  
-  if (round==16){throw("YOU WIN! GGS")}  
+  if (round==16){alert("you win ! GGWP :)");throw("YOU WIN! GGS")}  
   round++;
   begin();
   }
@@ -105,6 +108,4 @@ function begin(){
 
 
     } 
-
-begin()
 
