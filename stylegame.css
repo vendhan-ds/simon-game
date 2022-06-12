@@ -11,6 +11,7 @@
     border: 3px solid #FF0000;
 }
 
+
 .strtbtn{
     background-color: orange;
     padding: 30px 30px;
@@ -30,7 +31,7 @@
 }
 h1{ 
     font-family: "fantasy",copperplate;
-    color: rgb(3, 32, 119);
+    color: rgb(80, 120, 239);
     border: 1in;
     font-size: 0.6in;
 
@@ -46,4 +47,7 @@ body{
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    background-image: url(bac2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
